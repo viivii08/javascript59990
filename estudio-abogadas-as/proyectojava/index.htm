@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de Abogadas AS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Estudio de Abogadas AS</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-nosotras">Sobre Nosotras</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-nosotras">
+        <h2>Sobre Nosotras</h2>
+        <p>Somos un equipo de abogadas dedicadas a ofrecer asesoría legal de alta calidad, comprometidas con la defensa de los derechos de nuestras clientes.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Asesoría legal en derecho civil</li>
+            <li>Representación en litigios</li>
+            <li>Consultoría en derechos de la mujer</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Estudio de Abogadas AS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
